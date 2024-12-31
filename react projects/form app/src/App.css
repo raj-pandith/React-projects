@@ -1,0 +1,7 @@
+.check {
+  border: 2px solid black;
+}
+
+nav>* {
+  font-weight: 600;
+}

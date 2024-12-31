@@ -1,0 +1,36 @@
+.dice-container>div:hover {
+    background-color: black !important;
+    color: white !important;
+}
+
+.reset-score-btn {
+    background-color: white;
+    transition: all 0.2s;
+    color: black;
+    padding: 2px 15px;
+}
+
+.reset-score-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.dice {
+    cursor: pointer;
+}
+
+.dice-animate {
+    animation: rotate 0.2s linear 2 alternate;
+}
+
+@keyframes rotate {
+    from {
+        rotate: 0deg;
+        scale: 1;
+    }
+
+    to {
+        rotate: 360deg;
+        scale: 1.2;
+    }
+}
